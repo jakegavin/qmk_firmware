@@ -15,6 +15,16 @@
     QD_NOTE(_B4), E__NOTE(_D5), Q__NOTE(_G5),      \
     H__NOTE(_FS5),
 
+#define STAR_WARS                                                                                \
+    {NOTE_D4, 20}, {NOTE_REST, 1}, {NOTE_D4, 20}, {NOTE_REST, 1}, {NOTE_D4, 20}, {NOTE_REST, 2}, \
+    {NOTE_G4, 128}, {NOTE_D5, 128},                                                              \
+    {NOTE_C5, 20}, {NOTE_REST, 1}, {NOTE_B4, 20}, {NOTE_REST, 1}, {NOTE_A4, 20}, {NOTE_REST, 2}, \
+    {NOTE_G5, 128}, {NOTE_D5, 64},                                                               \
+    {NOTE_C5, 20}, {NOTE_REST, 1}, {NOTE_B4, 20}, {NOTE_REST, 1}, {NOTE_A4, 20}, {NOTE_REST, 2}, \
+    {NOTE_G5, 128}, {NOTE_D5, 64},                                                               \
+    {NOTE_C5, 20}, {NOTE_REST, 1}, {NOTE_B4, 20}, {NOTE_REST, 1}, {NOTE_C5, 20}, {NOTE_REST, 2}, \
+    {NOTE_A4, 128},
+
 #define CLOSE_ENCOUNTERS_5_NOTE  \
 	Q__NOTE(_D5),                \
 	Q__NOTE(_E5),                \
